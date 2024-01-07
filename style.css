@@ -323,7 +323,7 @@ ul {
 }
 
 .socialmedia {
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 a {
@@ -334,7 +334,7 @@ a {
 @media screen and (max-width:1310px) {
     header {
         position: sticky;
-        width: 100%;
+        width: max-content;
         top: 0;
 
 
@@ -343,7 +343,7 @@ a {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 50px;
         /* align-items: center;
         justify-content: center;
         text-align: center; */
@@ -359,8 +359,9 @@ a {
     .sec2 {
         /* display: flex; */
         flex-direction: column;
-        
+
     }
+
     .sec4 {
         /* display: flex; */
         flex-direction: column;
@@ -372,67 +373,125 @@ a {
     .sec5 {
         /* display: flex; */
         flex-direction: column;
-        
+        /* width: 100%; */
     }
 
-    .lastimg{
+    .lastimg {
         height: 250px;
         width: 350px;
     }
-   
+
     .sec {
-     
+
         flex-direction: column;
     }
+
     .sendmess {
         width: 200px;
     }
+
     .contact {
-        
+
         margin: 40px;
     }
-    .image {  
+
+    .image {
         height: 400px;
-        width: 350px;   
+        width: 350px;
         justify-content: center;
         text-align: center;
-        align-items: center ;
+        align-items: center;
     }
-    .myimage{
-        height: 400px;
-        width: 350px;   
+
+    .myimage {
+        height: 350px;
+        width: 284px;
         /* justify-content: center;
         text-align: center;
         align-items: center ; */
     }
-    .skill{
-        margin-top: 50px;
+
+    .skill {
+        margin-top: 0px;
     }
-    body{
+
+    body {
         display: block;
         width: 100%;
     }
-    .intro{
+
+    .intro {
         width: 400px;
         justify-content: center;
         margin-top: 50px;
     }
-    .ticmarkimg{
-        margin-left: 50px;
-      /* text-align: center; */
+
+    .ticmarkimg {
+        margin-left: 60px;
+        /* text-align: center; */
     }
-    .tick{
-        height: 400px;
-        width: 390px;
-    }
-    .language{
+
+    .tick {
+        height: 350px;
         width: 400px;
     }
+
+    .language {
+        width: 400px;
+    }
+
+    .hireme {
+        width: 20vw;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 100px;
+    }
+
+    .netflix {
+        height: 184px;
+        width: 337px;
+        object-fit: cover;
+    }
+
+    .project1 {
+        height: 350px;
+        width: 350px;
+    }
+    .ultraedit {
+        height: 191px;
+        width: 339px;
+    }
+
+    .project2 {
+        height: 350px;
+        width: 350px;
+    }
+    .boatcard {
+        height: 193px;
+        width: 341px;
+        
+    }
+
+    .project3 {
+        height: 350px;
+        width: 350px;
+    }
+
+    .learnmore {
+        width: 30vw;
+        margin-top: 15px;
+    }
+    main{
+        width: fit-content;
+    }
+    footer{
+        width: fit-content;
+    }
 }
-
-
-
-
-
-
-
