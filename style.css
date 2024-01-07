@@ -7,21 +7,28 @@
 body {
     /* background-color: rgba(152, 152, 236, 0.352); */
     background-color: #9898ec;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
 }
-header{
+
+header {
     position: sticky;
     top: 0;
+    width: 100%;
 }
+
 header nav {
     height: 90px;
     width: 100%;
     background-color: white;
-  
+
 }
 
 nav {
-
+    width: 100%;
     display: flex;
     /* flex-direction: column; */
     justify-content: space-around;
@@ -43,38 +50,44 @@ ul {
     height: 70px;
     width: 160px;
 }
-.sec1{
+
+.sec1 {
     display: flex;
     justify-content: space-between;
     /* border: 2px solid black; */
 }
-.intro{
+
+.intro {
     /* border: 2px solid black; */
     height: 400px;
     width: 700px;
-    padding: 100px 0px 0px 100px;
+    padding: 100px;
     margin: 20px;
-    
+
     font-size: 25px;
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
-.weight{
+
+.weight {
     font-weight: 600;
     font-size: 55px;
     color: rgb(26, 6, 84);
 }
-.hi{
+
+.hi {
     font-weight: 500;
     color: rgb(26, 6, 84);
 }
-.myname{
+
+.myname {
     font-size: 20px;
-    font-weight:350;
+    font-weight: 350;
 }
-.hireme{
-   
+
+.hireme {
+
     width: 10vw;
     padding: 10px;
     border: none;
@@ -83,7 +96,8 @@ ul {
     background-color: rgba(255, 0, 0, 0.772);
     cursor: pointer;
 }
-.image{
+
+.image {
     /* border: 2px solid black; */
     height: 500px;
     width: 450px;
@@ -91,26 +105,30 @@ ul {
     margin: 100px;
 
 }
-.myimage{
+
+.myimage {
     height: 497px;
     width: 447px;
     object-fit: cover;
     border-radius: 10px;
-    
+
 }
-.sec2{
+
+.sec2 {
     display: flex;
     /* gap: 50px;     */
     justify-content: space-around;
 }
-.skill{
-    color:rgba(255, 0, 0, 0.772);
+
+.skill {
+    color: rgba(255, 0, 0, 0.772);
     text-align: center;
     font-weight: 500;
     font-size: 20px;
 }
-.language{
-    height: 200px;
+
+.language {
+    /* height: 200px; */
     width: 550px;
     /* border: 2px solid black; */
     margin: 50px;
@@ -119,27 +137,32 @@ ul {
     flex-direction: column;
     gap: 25px;
 }
-.langlogo{
+
+.langlogo {
     display: flex;
     column-gap: 22px;
 }
-.ticmarkimg{
+
+.ticmarkimg {
     /* border: 2px solid black; */
     height: 511px;
     width: 490px;
 }
-.tick{
+
+.tick {
     height: 505px;
     width: 487px;
     object-fit: cover;
 }
-.grid{
+
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
-.sec3{
-    height: 600px;
+
+.sec3 {
+    /* height: 600px; */
     width: 100%;
     /* border: 2px solid red; */
     padding: 20px 20px 20px 50px;
@@ -148,7 +171,8 @@ ul {
     background-color: rgba(3, 3, 64, 0.751);
     color: white;
 }
-.project1{
+
+.project1 {
     border: 4px solid aqua;
     height: 400px;
     width: 400px;
@@ -158,12 +182,14 @@ ul {
     text-align: center;
     align-items: center;
 }
-.netflix{
+
+.netflix {
     height: 250px;
     width: 395px;
     object-fit: cover;
 }
-.project2{
+
+.project2 {
     border: 4px solid aqua;
     height: 400px;
     width: 400px;
@@ -173,13 +199,15 @@ ul {
     text-align: center;
     align-items: center;
 }
-.ultraedit{
+
+.ultraedit {
     height: 250px;
     width: 392px;
     object-fit: cover;
     object-position: top;
 }
-.project3{
+
+.project3 {
     border: 4px solid aqua;
     height: 400px;
     width: 400px;
@@ -189,13 +217,15 @@ ul {
     text-align: center;
     align-items: center;
 }
-.boatcard{
+
+.boatcard {
     height: 250px;
     width: 395px;
     object-fit: cover;
     object-position: top;
 }
-.center{
+
+.center {
     text-align: center;
     display: flex;
     gap: 10px;
@@ -203,7 +233,8 @@ ul {
     align-items: center;
     justify-content: center;
 }
-.learnmore{
+
+.learnmore {
     width: 10vw;
     padding: 10px;
     border: 2px solid white;
@@ -215,74 +246,193 @@ ul {
     font-size: 15px;
 
 }
-.padd{
+
+.padd {
     padding-top: 3px;
     margin-left: 10px;
 }
-.sec4{
+
+.sec4 {
     border: 2px solid black;
-    height: 600px;
+    /* height: 600px; */
     width: 100%;
     /* margin-top: 5px; */
     background-color: white;
-  
+
 }
-.sec{
+
+.sec {
     display: flex;
 }
-.contact{
+
+.contact {
     color: red;
     text-align: center;
     font-size: 20px;
     margin-top: 40px;
 }
-#email{
+
+#email {
     margin: 50px 10px 20px 70px;
     height: 50px;
-    width: 700px; 
+    max-width: 47vw;
     padding: 2px 0px 0px 20px;
 }
-#message{
+
+#message {
     margin: 50px 10px 20px 70px;
     height: 150px;
-    width: 700px;
+    min-width: 47vw;
     padding: 12px 0px 0px 20px;
 
 }
-.contactme{
+
+.contactme {
     display: flex;
     flex-direction: column;
 }
-.sendmess{
+
+.sendmess {
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 10px 10px 20px 70px;
-    padding: 15px;   
-    cursor: pointer; 
+    padding: 15px;
+    cursor: pointer;
     color: white;
     font-size: 20px;
-    background-color:rgba(3, 3, 64, 0.751);
+    background-color: rgba(3, 3, 64, 0.751);
 }
-.footer{
+
+.footer {
     border: 2px solid black;
     height: 500px;
     width: 100%;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     color: white;
-    background-color: rgba(3, 3, 64, 0.751);;
+    background-color: rgba(3, 3, 64, 0.751);
+    ;
 }
-.socialmedia{
+
+.socialmedia {
     margin-left: 100px;
 }
-a{
+
+a {
     color: rgb(0, 200, 255);
     text-decoration: none;
 }
+
+@media screen and (max-width:1310px) {
+    header {
+        position: sticky;
+        width: 100%;
+        top: 0;
+
+
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        /* align-items: center;
+        justify-content: center;
+        text-align: center; */
+    }
+
+    .sec1 {
+        /* display: flex; */
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .sec2 {
+        /* display: flex; */
+        flex-direction: column;
+        
+    }
+    .sec4 {
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec5 {
+        /* display: flex; */
+        flex-direction: column;
+        
+    }
+
+    .lastimg{
+        height: 250px;
+        width: 350px;
+    }
+   
+    .sec {
+     
+        flex-direction: column;
+    }
+    .sendmess {
+        width: 200px;
+    }
+    .contact {
+        
+        margin: 40px;
+    }
+    .image {  
+        height: 400px;
+        width: 350px;   
+        justify-content: center;
+        text-align: center;
+        align-items: center ;
+    }
+    .myimage{
+        height: 400px;
+        width: 350px;   
+        /* justify-content: center;
+        text-align: center;
+        align-items: center ; */
+    }
+    .skill{
+        margin-top: 50px;
+    }
+    body{
+        display: block;
+        width: 100%;
+    }
+    .intro{
+        width: 400px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .ticmarkimg{
+        margin-left: 50px;
+      /* text-align: center; */
+    }
+    .tick{
+        height: 400px;
+        width: 390px;
+    }
+    .language{
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
